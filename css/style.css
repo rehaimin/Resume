@@ -8,6 +8,10 @@
     src: url('../fonts/Roboto-Regular.ttf'), url('../fonts/Roboto-Bold.ttf');
 }
 
+@page {
+    margin: 0;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Roboto' sans-serif;
