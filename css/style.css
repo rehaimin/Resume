@@ -49,14 +49,13 @@ h5::after {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 874px;
 }
 
 .main-container {
     margin: 40px auto;
     border-left: 40px solid #100153;
-    /* padding: 20px; */
-    height: 1032px;
+    height: 1120px;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -72,7 +71,7 @@ h5::after {
 }
 
 .col-left {
-    height: 1032px;
+    height: 1120px;
     padding: 15px;
     background-color: rgb(223, 223, 223);
 }
@@ -96,4 +95,34 @@ section:hover {
 a {
     text-decoration: none;
     color: #000;
+}
+
+@media print {
+    .main-container {
+        margin: 0;
+        border-radius: 0;
+    }
+    .main-container>.row {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .col-left {
+        width: 40%;
+        height: 100%;
+    }
+    .col-right {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+        height: 100%;
+    }
 }
