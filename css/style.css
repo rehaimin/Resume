@@ -108,6 +108,9 @@ p {
 }
 
 @media print {
+	body {
+		font-size: 14px;
+	}
 	.main-container {
 		margin: 0;
 		border-radius: 0;
@@ -119,11 +122,11 @@ p {
 		flex-wrap: nowrap;
 	}
 	.col-left {
-		width: 40%;
+		width: 35%;
 		height: 100%;
 	}
 	.col-right {
-		width: 60%;
+		width: 65%;
 		height: 100%;
 	}
 }
