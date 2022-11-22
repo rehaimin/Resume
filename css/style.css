@@ -131,11 +131,11 @@ p {
 	}
 
 	.col-left {
-		width: 33%;
+		width: 40%;
 		height: 100%;
 	}
 	.col-right {
-		width: 67%;
+		width: 60%;
 		height: 100%;
 	}
 }
