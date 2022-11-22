@@ -110,6 +110,10 @@ p {
 @media print {
 	body {
 		font-size: 14px;
+		background-color: transparent;
+	}
+	.perso .skills {
+		height: 100%;
 	}
 	.main-container {
 		margin: 0;
@@ -120,13 +124,18 @@ p {
 		height: 100%;
 		display: flex;
 		flex-wrap: nowrap;
+		align-items: stretch;
 	}
+	.container {
+		width: 100%;
+	}
+
 	.col-left {
-		width: 35%;
+		width: 33%;
 		height: 100%;
 	}
 	.col-right {
-		width: 65%;
+		width: 67%;
 		height: 100%;
 	}
 }
