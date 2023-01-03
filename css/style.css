@@ -74,6 +74,9 @@ ul {
 	padding-left: 1rem;
 	margin: 0;
 }
+li + li {
+	margin-top: 0.2rem;
+}
 
 section {
 	box-shadow: none;
